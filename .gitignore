@@ -1,0 +1,13 @@
+
+*.dll
+
+*.pdb
+
+*.cache
+
+*.exe
+
+obj/Release/
+Properties/PublishProfiles/CustomProfile.pubxml
+Properties/PublishProfiles/CustomProfile.pubxml.user
+*.cache
