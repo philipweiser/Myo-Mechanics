@@ -1647,7 +1647,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     margin: 0 0 1em 0;
 }
@@ -1858,14 +1858,14 @@ button,
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 0;
     cursor: pointer;
     display: inline-block;
-    font-weight: 700;
-    height: 2.85em;
-    line-height: 2.95em;
-    padding: 0 1.5em;
+    font-weight: 500;
+    height: 2.2em;
+    line-height: 2.2em;
+    padding: 0 .5em;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -1910,7 +1910,7 @@ button,
     input[type="button"].big,
     button.big,
     .button.big {
-        font-size: 1.5em;
+        font-size: 2.75em;
     }
 
     input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2184,7 +2184,7 @@ form {
 label {
     display: block;
     font-size: 0.9em;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 1em 0;
 }
 
@@ -2675,7 +2675,7 @@ dl {
 
     dl dt {
         display: block;
-        font-weight: 700;
+        font-weight: 500;
         margin: 0 0 1em 0;
     }
 
@@ -2783,7 +2783,7 @@ table {
 
     table th {
         font-size: 0.9em;
-        font-weight: 700;
+        font-weight: 500;
         padding: 0 0.75em 0.75em 0.75em;
         text-align: left;
     }
@@ -2844,6 +2844,10 @@ table {
 
     table.alt tbody tr td {
         border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-method{
+        font-size:1.3em;
     }
 
 /* Wrapper */
@@ -3567,6 +3571,10 @@ body.subpage {
 
             #menu > ul.links > li {
                 padding: 0;
+            }
+
+            #menu > ul.links > li > a{
+                font-size:1.6em;
             }
 
                 #menu > ul.links > li > a:not(.button) {
