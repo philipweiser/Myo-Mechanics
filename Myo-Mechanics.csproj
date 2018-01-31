@@ -89,7 +89,7 @@
     <Content Include="assets\js\skel.min.js" />
     <Content Include="assets\js\util.js" />
     <Content Include="Global.asax" />
-    <Content Include="images\banner-transparent.png" />
+    <Content Include="images\banner-transparent-small.png" />
     <Content Include="images\canvas-texture.png" />
     <Content Include="images\myo-banner.jpeg" />
     <Content Include="images\myo-full.jpg" />

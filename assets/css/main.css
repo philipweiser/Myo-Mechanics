@@ -24,6 +24,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: 'Futura Condensed Medium';
 }
 
+.col > p{
+    font-size:1.3em;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -1863,9 +1867,9 @@ button,
     cursor: pointer;
     display: inline-block;
     font-weight: 500;
-    height: 2.2em;
-    line-height: 2.2em;
-    padding: 0 .5em;
+    height: 2.1em;
+    line-height: 2.1em;
+    padding: 0 .4em;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -1910,7 +1914,7 @@ button,
     input[type="button"].big,
     button.big,
     .button.big {
-        font-size: 2.75em;
+        font-size: 2.65em;
     }
 
     input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2720,7 +2724,6 @@ header p {
 }
 
 /* Tab */
-
 ul.tab-list {
     list-style: none;
     margin: 0 0 1em 0;
@@ -2847,7 +2850,7 @@ table {
     }
 
     .contact-method{
-        font-size:1.3em;
+        font-size:1.5em;
     }
 
 /* Wrapper */
@@ -3096,7 +3099,7 @@ table {
         color: #fff;
     }
 
-    .wrapper.style2 a {
+    .wrapper.style2 a, p {
         color: #999999;
     }
 
@@ -3108,7 +3111,7 @@ table {
         color: #fff;
     }
 
-    .wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+    .wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6{
         color: #fff;
     }
 
@@ -3437,6 +3440,7 @@ body.subpage {
         #header > a[href="#menu"] {
             text-decoration: none;
             -webkit-tap-highlight-color: transparent;
+            font-size:1.5em;
         }
 
             #header > a[href="#menu"]:before {
@@ -3701,10 +3705,6 @@ body.subpage {
         -webkit-transform: scale(1.0);
         -ms-transform: scale(1.0);
         transform: scale(1.0);
-        -moz-transition: opacity 1s ease, -moz-transform 1s ease;
-        -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-        -ms-transition: opacity 1s ease, -ms-transform 1s ease;
-        transition: opacity 1s ease, transform 1s ease;
         opacity: 1;
         position: relative;
         z-index: 2;
@@ -3762,14 +3762,6 @@ body.subpage {
 }
 
 #banner:before {
-    -moz-transition: opacity 3s ease;
-    -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
-    transition: opacity 3s ease;
-    -moz-transition-delay: 1.25s;
-    -webkit-transition-delay: 1.25s;
-    -ms-transition-delay: 1.25s;
-    transition-delay: 1.25s;
     content: '';
     display: block;
     height: 100%;
@@ -3803,7 +3795,7 @@ body.subpage {
         }
 
         #banner h1 {
-            font-size: 1.75em;
+            font-size: 3em;
             margin-bottom: 0.5em;
             padding-bottom: 0;
         }
@@ -3813,7 +3805,8 @@ body.subpage {
         }
 
         #banner .button {
-            width: 100%;
+            width: 75%;
+            margin-bottom:10px;
         }
 }
 
@@ -3822,14 +3815,6 @@ body.subpage {
     #banner p {
         font-size: 1em;
     }
-}
-
-body.is-loading #banner .inner {
-    -moz-transform: scale(0.99);
-    -webkit-transform: scale(0.99);
-    -ms-transform: scale(0.99);
-    transform: scale(0.99);
-    opacity: 0;
 }
 
 body.is-loading #banner:before {
